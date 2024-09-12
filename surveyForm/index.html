@@ -23,26 +23,29 @@
         <div class="form-control">
             <label for="name" id="label-name">
                 Name
+                <span class="mandatory_star">*</span>
             </label>
 
             <!-- Input Type Text -->
             <input type="text" id="name" 
-                   placeholder="Enter your name" />
+                   placeholder="Enter your name" required autofocus/>
         </div>
 
         <div class="form-control">
             <label for="email" id="label-email">
                 Email
+                <span class="mandatory_star">*</span>
             </label>
 
             <!-- Input Type Email-->
             <input type="email" id="email" 
-                   placeholder="Enter your email" />
+                   placeholder="Enter your email" required />
         </div>
 
         <div class="form-control">
             <label for="age" id="label-age">
                 Age
+                <small>(optional)</small>
             </label>
 
             <!-- Input Type Text -->
@@ -51,8 +54,9 @@
         </div>
 
         <div class="form-control">
-            <label for="role" id="label-role">
+            <label for="role" id="label-role" required>
                 Which option best describes you?
+                <span class="mandatory_star">*</span>
             </label>
 
             <!-- Dropdown options -->
@@ -70,6 +74,7 @@
             <label>
                 Would you recommend GeeksforGeeks
                 to a friend?
+                <small>(optional)</small>
             </label>
 
             <!-- Input Type Radio Button -->
@@ -92,7 +97,7 @@
 
         <div class="form-control">
             <label>Languages and Frameworks known
-                <small>(Check all that apply)</small>
+                <small>(Check all that apply)</small><span class="mandatory_star">*</span>  
             </label>
             <!-- Input Type Checkbox -->
             <label for="inp-1">
@@ -140,6 +145,7 @@
         <div class="form-control">
             <label for="comment">
                 Any comments or suggestions
+                <small>(optional)</small>
             </label>
 
             <!-- multi-line text input control -->

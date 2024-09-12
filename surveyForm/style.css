@@ -61,3 +61,6 @@
             margin-top: 50px;
             margin-bottom: 20px;
         }
+        .mandatory_star{
+            color: red;
+        }
